@@ -1,4 +1,9 @@
-<?php include("includes/header.php"); ?>
+<?php 
+
+$pageTitle = "Personal Media Library";
+$section = null;
+
+include("includes/header.php"); ?>
         <div class="section catalog random">
 
             <div class="wrapper">
