@@ -17,7 +17,7 @@ To follow along in a Treehouse course on building a basic PHP website.
  
 ## Backstory
 
-There's no backstory here. Only delight. I just love that you can inject conditionals almost wherever you want.
+There's no backstory here. Only delight. I just love that you can inject conditionals almost wherever you want. Using PHP reminds me of using SASS. Everything is broken out into bite sized pieces and it just feels so much more manageable.
 
 ## License
 None.
