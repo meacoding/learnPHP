@@ -1,5 +1,6 @@
 <?php 
-
+include("includes/data.php");
+include("includes/functions.php");
 $pageTitle = "Personal Media Library";
 $section = null;
 
@@ -11,6 +12,13 @@ include("includes/header.php"); ?>
                 <h2>May we suggest something?</h2>
 
                 <ul class="items">
+
+                <?php 
+                $random = array_rand($catalog, 4);
+                foreach ($random as $id) {
+                    echo get_item_html($id, $catalog[$id]);
+                }
+                ?>
                     <li><a href="details.php?id=201"><img src="img/media/forest_gump.jpg" alt="Forrest Gump">
                             <p>View Details</p>
                         </a></li>
