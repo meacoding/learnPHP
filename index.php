@@ -21,7 +21,7 @@ include("includes/header.php");
                 echo get_item_html($id, $catalog[$id]);
             }
             ?>
-                <li><a href="details.php?id=201"><img src="img/media/forest_gump.jpg" alt="Forrest Gump">
+                <!-- <li><a href="details.php?id=201"><img src="img/media/forest_gump.jpg" alt="Forrest Gump">
                         <p>View Details</p>
                     </a></li>
                 <li><a href="details.php?id=204"><img src="img/media/princess_bride.jpg" alt="The Princess Bride">
@@ -32,7 +32,7 @@ include("includes/header.php");
                     </a></li>
                 <li><a href="details.php?id=303"><img src="img/media/garth_brooks.jpg" alt="No Fences">
                         <p>View Details</p>
-                    </a></li>
+                    </a></li> -->
             </ul>
 
         </div>
@@ -41,4 +41,4 @@ include("includes/header.php");
 
 </div> <!--end content-->
 
-	<?php include("includes/footer.php"); ?>
+<?php include("includes/footer.php"); ?>
